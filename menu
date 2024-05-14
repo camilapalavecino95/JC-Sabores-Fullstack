@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - JC Sabores Fullstack</title>
+    <link rel="icon" href="img/Logos/icono del logo.ico">
+    <link rel="stylesheet" href="Css/Menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <style>
+        .sedan-sc-regular {
+            font-family: "Sedan SC", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Didact+Gothic&family=Sedan+SC&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="Index.html">
+            <img src="img/Logos/logo-header.svg" alt="Logo">
+        </a>
+
+    <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#realiza_tu_pedido">Realiza tu Pedido</a>
+        <a href="#quienes_somos">Quiénes Somos</a>
+        <a href="contactanos.html">Contactanos</a>
+    </nav>
+    </header>
+        <nav>
+            <a href="platos_principales.html">
+                <div class="card-menus">
+                    <img src="img/menu iconos/300x300/portada-bebidas-300x300.png" alt="platos principales">
+                    <p class="fuente-personalizada">Platos Principales</p>
+                </div>
+            </a>
+            <a href="postres.html">
+                <div class="card-menus">
+                    <img src="img/menu iconos/300x300/portada-postres-300x300.png" alt="postres">
+                    <p>Postres</p>
+                </div>
+            </a>
+            <a href="bebidas.html">
+                <div class="card-menus">
+                    <img src="img/menu iconos/300x300/portada-bebidas-300x300.png" alt="bebidas">
+                    <p>Bebidas</p>
+                </div>
+            </a>
+    </nav>
+
+    <div class="content">
+        <h2 class="tituloBanner sedan-sc-regular"> Realiza tu pedido</h2>
+        <p class="fuente-personalizada">¡Hace tu pedido ahora y disfruta de la mejor comida!</p>
+        <a href="https://wa.me/5491234567890" target="_blank">
+            <img id="ico-log-pedido"  src="img/Redes Sociales/ico_whatsapp_pedidos.gif" alt="Logo de WhatsApp">
+        </a>
+    </div>
+    <footer>
+        <a href="https://www.instagram.com/">
+            <img src="img/Redes Sociales/instagram.png" alt="Nuestro Instagram">
+        </a>
+
+        
+        <div id="contacto" class="contacto">
+
+        </div>
+
+        <div class="politicas-de-privacidad">
+            <ul>
+                <li><a href="contactanos.html">Contactanos</a></li>
+                <li><a href="Politicas-y-privacidad.html">Politicas de Privacidad</a></li>
+                <li><a href="https://autogestion.produccion.gob.ar/consumidores">Defensa al Consumidor</a></li>
+            </ul>
+
+            
+        </div>
+    </footer>
+    <footer>
+        <p class="fuente-personalizada">Derechos Reservados &copy; 2024 | JC Sabores FullStack - | Camila Palavecino | Fernando Martinez | Gabriel Ance | Joaquín Guzmán</p>
+    </footer>
+</body>
+</html>
