@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Platos Principales y Guarniciones</title>
+    <link rel="stylesheet" href="Css/Platos_principales.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Didact+Gothic&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Didact+Gothic&family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <a href="Index.html">
+            <img src="img/Logos/logo-header.svg" alt="Logo de JC Sabores FullStack">
+        </a>
+
+    <nav>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#realiza_tu_pedido">Realiza tu Pedido</a></li>
+        <li><a href="#quienes_somos">Quiénes Somos</a></li>
+        <li><a href="contactanos.html">Contactanos</a></li>
+    </nav>
+</header>
+<div id="burger">
+    <div class="barra superior"></div>
+    <div class="barra media"></div>
+    <div class="barra inferior"></div>
+</div>
+<div class="menu">
+    <nav>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#realiza_tu_pedido">Realiza tu Pedido</a></li>
+        <li><a href="#quienes_somos">Quiénes Somos</a></li>
+        <li><a href="contactanos.html">Contactanos</a></li>
+    </nav>
+</div>
+
+    Menu Principal
+    <br>
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Milanesa a Caballo</h2>
+        <img src="img/plato principal/300x300/milanesa-a-caballo-300x300.png" alt="Plato 1">
+        <p class="fuente-personalizada"> Una sabrosa e infaltable milanesa a caballo, de ternera o suprema a elección, acompañada de un huevo frito y papas fritas caseras. Una combinación irresistible que deleitará tu paladar en cada bocado.</p>
+        <p class="fuente-personalizada"> Precio: $4800</p>
+    </div>
+    
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Asado Argentino Tradicional</h2>
+        <img src="img/plato principal/300x300/asado-300x300.png" alt="Plato 2">
+        <p class="fuente-personalizada"> Nuestro asado es una experiencia única que celebra la tradición y el sabor de Argentina. Cortes selectos de carne asados a la perfección en nuestro fuego, acompañados de chimichurri y ensaladas frescas.</p>
+        <p class="fuente-personalizada"> Precio: $12000</p>
+    </div>
+
+    <!-- Cambiar los números y la información según sea necesario -->
+
+    <!-- Plato 3 -->
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Matambre a la Pizza</h2>
+        <img src="img/plato principal/300x300/matambre-a-la-pizza-300x300.png" alt="Plato 3">
+        <p class="fuente-personalizada"> El matambre a la pizza es una delicia argentina que combina la suavidad del matambre con el sabor intenso de la pizza. Una explosión de sabores que te transportará a la mesa de tu abuela.</p>
+        <p class="fuente-personalizada"> Precio: $5500</p>
+    </div>
+
+    <!-- Plato 4 -->
+    <div class="plato">
+        <h2 class="fuente-personalizada">Ñoquis con Salsa Bolognesa o Salsa Blanca</h2>
+        <img src="img/plato principal/300x300/ñoquis-300x300.png" alt="Plato 4">
+        <p class="fuente-personalizada"> Ñoquis caseros, suaves y delicados, servidos con tu elección de salsa bolognesa, rica en sabores tradicionales, o salsa blanca, cremosa y reconfortante. Una opción clásica que nunca falla.</p>
+        <p class="fuente-personalizada"> Precio: $3500</p>
+    </div>
+
+    <!-- Plato 5 -->
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Curry de Calabaza</h2>
+        <img src="img/plato principal/300x300/curry-calabaza-300x300.png" alt="Plato 5">
+        <p class="fuente-personalizada"> Sumergite en un mundo de sabores exóticos con nuestro curry de calabaza. La combinación perfecta de especias y la dulzura natural de la calabaza te cautivarán desde el primer bocado.</p>
+        <p class="fuente-personalizada"> Precio: $3700</p>
+    </div>
+
+    <!-- Plato 6 -->
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Hamburguesas Mega Triple XL</h2>
+        <img src="img/plato principal/300x300/burguer-300x300.png" alt="Plato 6">
+        <p class="fuente-personalizada"> Para los amantes de las hamburguesas, presentamos nuestras hamburguesas mega triple XL. Tres jugosas carnes, acompañadas de queso, panceta, vegetales frescos y salsas caseras, todo en un delicioso pan artesanal.</p>
+        <p class="fuente-personalizada"> Precio: $6000</p>
+    </div>
+
+    <!-- Plato 7 -->
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Pizza a la Piedra o al Molde</h2>
+        <img src="img/plato principal/300x300/Pizza-300x300.png" alt="Plato 7">
+        <p class="fuente-personalizada"> Nuestras pizzas son una obra maestra de la tradición italiana. Elige entre nuestra masa a la piedra, crujiente y artesanal, o nuestra masa al molde, suave y esponjosa. Cubierta con los ingredientes frescos y sabrosos de tu elección.</p>
+        <p class="fuente-personalizada"> Precio: $5000</p>
+    </div>
+
+    <!-- Plato 8 -->
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Pane and Cream: Delicia Dulce y Suave</h2>
+        <img src="img/plato principal/300x300/fondue-300x300.png" alt="Plato 8">
+        <p class="fuente-personalizada">Disfruta de nuestro postre Pane and Cream, una combinación perfecta de pan dulce empapado en crema batida, coronado con una capa de caramelo. Un placer indulgente que endulzará tu día.</p>
+        <p class="fuente-personalizada">Precio: $7500</p>
+    </div>
+
+    <!-- Plato 9 -->
+    <div class="plato">
+        <h2 class="fuente-personalizada"> Teokbokki: Sabor Coreano Auténtico</h2>
+        <img src="img/plato principal/300x300/teokkbokki-300x300.png" alt="Plato 9">
+        <p class="fuente-personalizada"> Descripción breve del plato 9.</p>
+        <p class="fuente-personalizada"> Precio: $6300</p>
+    </div>
+
+
+    <h1>Menú de Guarniciones</h1>
+    
+    <div class="guarnicion">
+        <h2 class="fuente-personalizada"> Guarnición 1 - Batatas Fritas </h2>
+        <img src="img/guarniciones/300x300/Batatas-fritas.png" alt="Guarnición 1">
+        <p class="fuente-personalizada"> Las batatas fritas son una alternativa deliciosa y nutritiva a las papas fritas tradicionales. Se preparan cortando las batatas en rodajas delgadas o en forma de palitos, que luego se fríen en aceite caliente hasta que estén crujientes por fuera y tiernas por dentro. </p>
+        <p class="fuente-personalizada">Precio: $2500</p>
+    </div>
+
+    <!-- Cambiar los números y la información según sea necesario -->
+
+    <!-- Guarnición 2 -->
+    <div class="guarnicion">
+        <h2 class="fuente-personalizada"> Guarnición 2 - Papas Con Bacon </h2>
+        <img src="img/guarniciones/300x300/papas-bacon.png" alt="Guarnición 2">
+        <p class="fuente-personalizada">Las papas con cheddar, bacon y verdeo es un plato que combina la cremosidad del queso cheddar derretido con el sabor ahumado del bacon y la frescura de las cebollas de verdeo (también conocidas como cebolletas o cebollinos)</p>
+        <p class="fuente-personalizada">Precio: $4000</p>
+    </div>
+
+    <!-- Guarnición 3 -->
+    <div class="guarnicion">
+        <h2 class="fuente-personalizada"> Guarnición 3 - Champiñones </h2>
+        <img src="img/guarniciones/300x300/champiñones.png" alt="Guarnición 3">
+        <p class="fuente-personalizada">Los champiñones al verdeo son una deliciosa y sencilla preparación que combina champiñones frescos con cebollas de verdeo (cebollines o cebolletas).</p>
+        <p class="fuente-personalizada">Precio: $3500</p>
+    </div>
+
+    <!-- Guarnición 4 -->
+    <div class="guarnicion">
+        <h2 class="fuente-personalizada"> Guarnición 4 - Verduras hervidas </h2>
+        <img src="img/guarniciones/300x300/verduras-hervidas.png" alt="Guarnición 4
+        ">
+        <p class="fuente-personalizada"> Las verduras hervidas son una forma simple y saludable de preparar una variedad de vegetales frescos. Este método de cocción implica sumergir las verduras en agua hirviendo durante un período de tiempo corto hasta que estén tiernas pero aún conserven su textura crujiente.</p>
+        <p class="fuente-personalizada"> </p>Precio: $2500</p>
+    </div>
+    <a href="menu.html" onclick="window.history.back();">Volver Atrás</a>
+
+    <footer>
+        <a href="https://www.instagram.com/">
+            <img src="img/Redes Sociales/instagram.png" alt="Nuestro Instagram">
+        </a>
+
+        
+        <div id="contacto" class="contacto">
+
+        </div>
+
+        <div class="politicas-de-privacidad">
+            <ul>
+                <li><a href="contactanos.html">Contactanos</a></li>
+                <li><a href="Politicas-y-privacidad.html">Politicas de Privacidad</a></li>
+                <li><a href="https://autogestion.produccion.gob.ar/consumidores">Defensa al Consumidor</a></li>
+            </ul>
+
+            
+        </div>
+    </footer>
+    <footer>
+        <a href="https://www.instagram.com/">
+            <img src="img/Redes Sociales/instagram.png" alt="Nuestro Instagram">
+        </a>
+
+        
+        <div id="contacto" class="contacto">
+
+        </div>
+
+        <div class="politicas-de-privacidad">
+            <ul>
+                <li><a href="contactanos.html">Contactanos</a></li>
+                <li><a href="Politicas-y-privacidad.html">Politicas de Privacidad</a></li>
+                <li><a href="https://autogestion.produccion.gob.ar/consumidores">Defensa al Consumidor</a></li>
+            </ul>
+
+            
+        </div>
+    </footer>
+    <footer>
+        <p>Derechos Reservados &copy; 2024 | JC Sabores FullStack - | Camila Palavecino | Fernando Martinez | Gabriel Ance | Joaquín Guzmán</p>
+    </footer>
+</body>
+</html>
